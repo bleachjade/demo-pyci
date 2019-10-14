@@ -1,0 +1,30 @@
+# The .env file may contain configutation info injected using python-decouple
+# For security, don't commit it to Git!
+.env
+local_settings.py
+__pycache__/
+*.py[cod]
+/build
+db.sqlite3
+# output of 'manage.py collectstatic'
+staticfiles/
+# Virtualenv is recreated as needed. Don't commit.
+venv/
+env/
+
+# code coverage
+.coverage
+htmlcov/
+/coverage
+
+# logs, etc
+*.log
+docs/
+
+# IDE and MacOS files
+.idea/
+*.iml
+.project
+.pydevproject
+.vscode/
+.DSStore
